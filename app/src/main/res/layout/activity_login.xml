@@ -72,6 +72,7 @@
                 android:layout_height="30dp"
                 android:layout_gravity="center_vertical"
                 android:hint="请输入您的密码"
+                android:inputType="textPassword"
                 android:textColorHint="@color/common_divider_line"
                 android:background="@null"
                 android:textSize="15sp"
