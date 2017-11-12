@@ -26,9 +26,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-
         setContentView(R.layout.activity_main);
-        tabPadding = (int)ViewUtils.dp2px(this,50f);
+        getSupportActionBar().hide();
+
+        tabPadding = ViewUtils.dp2px(this,50f);
         mTabHost=(MyFragmentTabHost)findViewById(android.R.id.tabhost);
         mTabHost.setup(this, getSupportFragmentManager(), R.id.realtabcontent);
         initTabs();
@@ -73,9 +74,5 @@ public class MainActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
     }
-
-
-
-
 
 }

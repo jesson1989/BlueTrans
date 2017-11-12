@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="common_titlebar_height">56dp</dimen>
+    <dimen name="common_title_size">20sp</dimen>
+    <dimen name="common_right_title_size">15sp</dimen>
+</resources>

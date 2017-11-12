@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="commontitlebar">
+        <attr name="left_drawable" format="reference" />
+        <attr name="middle_title" format="string" />
+        <attr name="right_title" format="string" />
+    </declare-styleable>
+
+</resources>

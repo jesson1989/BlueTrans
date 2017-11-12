@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:commontitlebar="http://schemas.android.com/apk/res-auto"
+
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <com.blueinker.bluetrans.widget.CommonTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        commontitlebar:middle_title ="我的"
+        >
+
+    </com.blueinker.bluetrans.widget.CommonTitleBar>
+
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -9,7 +22,7 @@
         android:layout_gravity="center_horizontal"
         android:textSize="36sp"
         android:textColor="@color/colorPrimaryDark"
-        android:text="老司机"/>
+        android:text="我的"/>
 
 
 </LinearLayout>

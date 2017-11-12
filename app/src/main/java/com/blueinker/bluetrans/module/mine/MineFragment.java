@@ -26,7 +26,7 @@ public class MineFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
-        View rootView = inflater.inflate(R.layout.activity_login,
+        View rootView = inflater.inflate(R.layout.fragment_mine,
                 container, false);
 
         return rootView;

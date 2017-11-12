@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">BlueTrans</string>
+    <string name="main_tab_name_tasking">正在进行中</string>
     <string name="main_tab_name_me">我的</string>
-    <string name="main_tab_name_me1">我的bi</string>
 </resources>
